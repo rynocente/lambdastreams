@@ -48,7 +48,7 @@ public class FilterElements {
 		System.out.println("---");
 		
 		
-		//v.3 refactor v.2 removing duplication with lexical scoping, call checkIfStartsWith
+		//v.3 refactor v.2 removing duplication with lexical scoping, call checkText
 		final long countFriendsStartP_v2 = friends.stream()
 													.filter(checkText("P"))
 													.count();
