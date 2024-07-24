@@ -62,7 +62,7 @@ public class FilterElements {
 		System.out.println("---");
 		
 		
-		//v.4 refactor v,3 to narrow the scope
+		//v.4 refactor v.3 to narrow the scope
 		final Function<String, Predicate<String>> startsWithLetter = letter -> name -> name.startsWith(letter);
 		final long countFriendsStartP_v3 = friends.stream()
 													.filter(startsWithLetter.apply("P"))
